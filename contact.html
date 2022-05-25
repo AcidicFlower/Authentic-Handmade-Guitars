@@ -27,16 +27,25 @@
         <main>
             <h1>Contact</h1>
         </main>
-        <form>
+        <form action="form-success.php" method="POST">
             <fieldset>
                 <legend> </legend>
                 <label for="full name"> Full name</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" class="form__input">
                 <label for="email"> Email</label>
                 <input type="text" name="email" id="email">
                 <label for="guitar"> Guitar</label>
                 <input type="text" name="guitar" id="guitar">
+                <select name="ptoduct">
+                    <option value="product-one">Adirondack Red</option>
+                    <option value="product-two">Adirondack Red</option>
+                    <option value="product-three">Adirondack Red</option>
+                </select>
+                <label for="sign up">Sign up for email updates.</label>
+                <input type="checkbox" id="sign up" name="sign up" value="sign up"
+                <p>Message</p>
             </fieldset>
+            <input type="submit" value="Send Now"
         </form>
         <footer>
             Copyright &copy;
