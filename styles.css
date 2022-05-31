@@ -51,7 +51,6 @@ body {
 h1 {
     font-family: 'Boots & Spurs';
 }
-<<<<<<< Updated upstream
 
 html, body {
     margin: 0;
@@ -73,22 +72,5 @@ html, body {
 }
 
 .sally {
-=======
-/* Home page */
-.welcome {
-    background-image: url("Images/home-header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 70vh;
-    background-position-x: right;
-    background-position-y: bottom;
-}
-
-.selling-points__images{
-    border-radius: 100px;
-}
-
-.review__images{
->>>>>>> Stashed changes
     border-radius: 50%;
 }
